@@ -14,7 +14,8 @@ import doctor5 from "../assets/doctor5.png";
 import '../styles/DoctorSection.css';
 
 const DoctorSection = () => {
-  const doctors = [doctor1, doctor2, doctor3, doctor4, doctor5];
+  const doctors = [doctor1, doctor2, doctor3, doctor4, doctor5, doctor6];
+
 
   return (
     <div className="doctor-section overflow-hidden">
