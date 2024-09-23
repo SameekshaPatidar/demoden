@@ -1,0 +1,14 @@
+.slide-container {
+    transition: transform 0.3s ease;
+    width: 100%;
+  }
+  
+  .slide-container.next {
+    transform: translateX(100%);
+  }
+  
+  .slide-container.prev {
+    transform: translateX(-100%);
+  }
+  
+  
